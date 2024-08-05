@@ -31,7 +31,6 @@ class Service(models.Model):
     service_provider = models.ForeignKey(ServiceProvider, on_delete=models.CASCADE)
     name = models.CharField(max_length=100)
     description = models.TextField(blank=True)
-    duration = models.DurationField(help_text="Duration of the service in HH:MM:SS")
     price = models.PositiveIntegerField(default=0)
 
     def __str__(self):
