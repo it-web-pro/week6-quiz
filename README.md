@@ -9,9 +9,8 @@
 5. สร้าง database ชื่อ `service` ใน Postgres DB
 6. ทำการเพิ่ม code ด้านล่างนี้ในไฟล์ `service/models.py`
 7. เพิ่ม **'service'** ใน `settings.py`
-8. จากนั้นทำการติดตั้งเพื่อใช้งาน jupyter notebook ตามขั้นตอนใน `django_notebook.md`
-9. ทำการ `makemigrations` และ `migrate`
-10. import ข้อมูลจาก `service.sql` ลงไปใน database
+8. ทำการ `makemigrations` และ `migrate`
+9. import ข้อมูลจาก `service.sql` ลงไปใน database
 
 ```python
 from django.db import models
